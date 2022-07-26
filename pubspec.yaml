@@ -1,0 +1,37 @@
+name: recipes_app
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_svg: ^1.1.1+1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/svg/
+
+  fonts:
+    - family: SFProText
+      fonts:
+        - asset: assets/fonts/SFProText-Regular.otf
+        - asset: assets/fonts/SFProText-Medium.otf
+          weight: 500
+        - asset: assets/fonts/SFProText-Semibold.otf
+          weight: 600
